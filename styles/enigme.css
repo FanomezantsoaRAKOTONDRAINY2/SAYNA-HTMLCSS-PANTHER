@@ -1,0 +1,234 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+*:focus{
+    outline: none;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 155% ;
+    background-image: url("../images/Illustrations + Logo/All pages/arrière_plan.png");
+    overflow-x: hidden;
+}  
+
+/* style de police */
+@font-face{
+    font-family: "h1";
+    src: url(/fonts/PantheraRegular-MVZ9J.ttf);
+}
+h1{
+    font: 68px "h2";
+    color: #9E91B7;
+}
+@font-face{
+    font-family: "h2";
+    src: url(/fonts/FontsFree-Net-BEYNO.ttf);
+}
+h2, .menu2 a{
+    font: 32px "h2";
+    color: #9E91B7;
+}
+@font-face{
+    font-family: "p" ;
+    src: url(/fonts/Cantarell-Regular.ttf);
+}
+@font-face{
+    font-family: "forever";
+    src: url(/fonts/WakandaForever-Regular.ttf);
+}
+
+p,  .page a{
+    font: 16px "p";
+    color: #FFFF;
+}
+.politique a{
+    font: 10px "p";
+    color: #FFFF;
+}
+
+.propos h4, .rs h4{
+    font: 18px "p";
+    letter-spacing: 6px;
+}
+
+
+/* barre de navigation */
+
+.menu{
+   display: flex;
+   justify-content: space-between;
+   padding: 5% 9% 0 9%; 
+}
+.menu2 {
+    display: flex;
+    margin-right: 3%;
+}
+.menu2 a{
+    padding: 0% 5%;
+    color: #FFFF;
+
+}
+.menu2 a:hover{
+    text-decoration: underline;
+    color: #9E91B7;
+    
+}
+/* section 1 */
+
+.dora-milaji{
+    width: 800px;
+    padding-left: 42%;
+    padding-bottom: 15%;
+    position: relative;
+    background-image: url("../images/Illustrations + Logo/Enigme/Pantherenigme1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 75% ;
+}
+.dora{
+    padding-top: 15%;
+
+}
+.dora-text{
+    width: 580px;
+    text-align: justify;
+    padding-left: 3%;
+}
+.titreh1{
+    padding-bottom: 15%;
+}
+.image1{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+}
+.img2 img{
+    width: 900px;
+}
+/* 2eme section */
+.fidele p{
+    font: 43px "forever";
+    color: #9E91B7;
+    letter-spacing: 6px;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.alphebet{
+    padding-left: 8%;
+    font: 24px;
+}
+.alphabet span{
+    font: 24px "forever";
+}
+/* 3eme section */
+.source{
+    text-align: center;
+    padding-left: 40%;
+}
+
+.img3{
+    position: absolute;
+    width: 900px;
+    left: 40%;
+    top: 180%;
+}
+.form11{
+    width: 300px;
+    padding-left: 8%;
+    padding-bottom: 10%;
+}
+
+.input1 input{
+    width: 380px;
+    height: 54px;
+    text-align: left;
+    background: #FFFF;
+    border-radius: 40px 40px;
+    background-color: transparent;
+    border: 1px solid #FFFF;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    color: #FFFF;
+}
+.input2 button{
+    width: 170px;
+    height: 54px;
+    text-align: center;
+    background: #FFFF;
+    border-radius: 38px 38px;
+    background-color: none;
+    margin-top: 10%;
+}
+.input2{
+    padding-left: 39%;
+}
+.input2:hover{
+    filter: drop-shadow(0 1px 1.5rem #F2CEF2);
+}
+
+/* foooter */
+.pieds{
+    background-image: url("/images/Illustrations + Logo/All pages/back_footer.png");
+    margin: -3%;
+     padding-top: 10px;
+     min-height: 600px;
+     position: relative;
+}  
+.propos{
+    display: flex;
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.rs{
+    padding-left: 15%;
+    letter-spacing: 28px;
+}
+.rs h4{
+    letter-spacing: 28px;
+}
+.reseau{ 
+    display: flex;
+}
+.rs1{
+    padding-right: 20%;
+}
+
+.final{
+    position: relative;
+    width: 20%;
+    margin-left: 15%; 
+
+}
+.logo3{
+   width: 200px;
+   height: 40px
+}
+.footer{
+    position: absolute;
+    height: 40%;
+    top: -405%;
+    left: -25%;
+}
+ .final:hover:hover{
+     transform: scale(1.1);
+ }
+ .politique{
+     font-size: 10px;
+     display: flex;
+     justify-content: center;   
+ }
+ .pltq{
+     margin: 0 5px; 
+     color: #F2CEF2;
+ }
+ .pltq li a::before{
+     content: ".";
+ }
+ .pieds h4{
+     color: #FFFF;
+ }
+ .rs1:hover{
+    transform: scale(1.1);
+}
